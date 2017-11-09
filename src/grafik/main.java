@@ -44,7 +44,7 @@ public class main extends Application {
 	public void start(Stage primaryStage) throws Exception {
 
 		// �ndra siffran h�r nere till 1,2,3 eller 4 beroende p� vilken vy du vill se!
-		makeView1();
+		makeView3();
 
 		primaryStage.setScene(new Scene(root, WIDTH, HEIGHT));
 		primaryStage.show();
@@ -110,7 +110,7 @@ public class main extends Application {
 		 * 		 Sedan m�ste mellanrummet mellan ringarna minska ocks�...
 		 */
 
-		int rings = 15;
+		int rings = 100;
 
 		for (int i = rings; i >= 0; i--) {
 
@@ -122,6 +122,9 @@ public class main extends Application {
 			int g = (int) (Math.random() * 255);
 			int b = (int) (Math.random() * 255);
 			cir.setFill(Color.rgb(r, g, b));
+
+			cir.setTranslateX(WIDTH/2);
+			cir.setTranslateY(HEIGHT/2);
 
 			root.getChildren().add(cir);
 
