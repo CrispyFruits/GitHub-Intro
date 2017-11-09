@@ -3,15 +3,15 @@ package grafik;
 /*
  * INSTRUKTIONER:
  * 
- * Ni ska �terskapa 4 olika vyer i JavaFX med hj�lp av koden nedan.
- * Ni beh�ver modifiera och/eller kopiera delar av koden f�r att
- * lyckas l�sa uppgifterna. 
+ * Ni ska återskapa 4 olika vyer i JavaFX med hjälp av koden nedan.
+ * Ni behöver modifiera och/eller kopiera delar av koden för att
+ * lyckas lösa uppgifterna.
  * De fyra metoderna makeView1(),makeView2(),makeView3() och makeView4()
- * �r till f�r att skapa de olika vyerna och omkring rad 47 kan du bara �ndra
- * siffran p� metoden till den vy du vill se.
+ * är till för att skapa de olika vyerna och omkring rad 47 kan du bara ändra
+ * siffran på metoden till den vy du vill se.
  * 
- * Ditt uppdrag �r att redigera i de 4 olika metoderna och f� vyn att
- * bli lik de fr�n uppgiften i drive-dokumentet!
+ * Ditt uppdrag �r att redigera i de 4 olika metoderna och få vyn att
+ * bli lik de från uppgiften i drive-dokumentet!
  * 
  * Dokumentet hittar du h�r: https://tinyurl.com/javafx-te16d
  * 
@@ -58,8 +58,8 @@ public class main extends Application {
 		 * 		 Eller �r det kanske bara f�r m�nga rutor??....
 		 */
 
-		int rows = 30;
-		int cols = 30;
+		int rows = 10;
+		int cols = 10;
 
 		double width = WIDTH / cols;
 		double height = HEIGHT / rows;
